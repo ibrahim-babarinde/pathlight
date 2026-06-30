@@ -11,10 +11,10 @@ site straight from this repo.
 
 ## Tech stack
 
-- React 19 + Vite
-- React Router (HashRouter, for zero-config static hosting)
-- Tailwind CSS v4
-- lucide-react icons
+* React 19 + Vite
+* React Router (HashRouter, for zero-config static hosting)
+* Tailwind CSS v4
+* lucide-react    icons
 
 ## Running locally
 
@@ -47,18 +47,19 @@ every push to `main`.
 
 1. Push this project to a new GitHub repository.
 2. In the repo, go to **Settings -> Pages**, and under "Build and
-   deployment", set **Source** to **GitHub Actions**.
+deployment", set **Source** to **GitHub Actions**.
 3. Push to `main` (or re-run the workflow from the **Actions** tab). The
-   site will be published at:
-   `https://<your-username>.github.io/<repo-name>/`
+site will be published at:
+`https://<your-username>.github.io/<repo-name>/`
 
 No further configuration is needed, the app uses a relative build path and
 hash-based routing, so it works correctly regardless of the repo name.
 
 ## Where to go from here
 
-- Swap `src/data/mockData.js` and `src/context/AppContext.jsx` for real API
-  calls once a backend exists (Supabase is a fast path: free Postgres +
-  auth).
-- `src/lib/roadmap.js` is a simple rules engine, that's the natural place
-  to plug in something smarter later.
+* Swap `src/data/mockData.js` and `src/context/AppContext.jsx` for real API
+calls once a backend exists (Supabase is a fast path: free Postgres +
+auth).
+* `src/lib/roadmap.js` is a simple rules engine, that's the natural place
+to plug in something smarter later.
+
